@@ -1,0 +1,229 @@
+@media (min-width: 1024px) {
+
+  h1, h2, h3, h4, h5, h6, p {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 125px;
+    padding-top: 150px;
+  }
+
+  h3 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+
+  .primary-logo {
+    padding-top: 100px;
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+  }
+
+  .homepage {
+    width: 500px;
+    height: auto;
+    margin: auto;
+  }
+
+  .homepage img {
+    display: inline;
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    margin: auto;
+  }
+
+  .homepage a{
+    text-decoration: none;
+  }
+
+  .nav div {
+    float: left;
+    width: 20%;
+  }
+
+  .nav div a {
+    display: block;
+    height: 80px;
+  }
+
+  .nav div.primary a{
+    background-image: url(../images/nav_primary.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.brush a{
+    background-image: url(../images/nav_paintbrush.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /*red hover*/
+  .nav div.r-red a{
+    background-image: url(../images/nav_red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.r-yellow a{
+    background-image: url(../images/nav_yellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.r-yellow:hover a {
+    background-image: url(../images/nav_orange.png);
+  }
+
+  .nav div.r-blue a{
+    background-image: url(../images/nav_blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.r-blue:hover a {
+    background-image: url(../images/nav_purple.png);
+  }
+
+  /*yellow hover*/
+  .nav div.y-red a{
+    background-image: url(../images/nav_red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.y-red:hover a {
+    background-image: url(../images/nav_orange.png);
+  }
+
+  .nav div.y-yellow a{
+    background-image: url(../images/nav_yellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.y-blue a{
+    background-image: url(../images/nav_blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.y-blue:hover a {
+    background-image: url(../images/nav_green.png);
+  }
+
+  /*blue hover*/
+  .nav div.b-red a{
+    background-image: url(../images/nav_red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.b-red:hover a {
+    background-image: url(../images/nav_purple.png);
+  }
+
+  .nav div.b-yellow a{
+    background-image: url(../images/nav_yellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.b-yellow:hover a {
+    background-image: url(../images/nav_green.png);
+  }
+
+  .nav div.b-blue a{
+    background-image: url(../images/nav_blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  div.red-img-1 div, div.red-img-2 div, div.red-img-3 div {
+    float: left;
+    width: 33.3%;
+    padding-top: 30px;
+  }
+
+  div.yellow-img-1 div, div.yellow-img-2 div, div.yellow-img-3 div {
+    float: left;
+    width: 33.3%;
+    padding-top: 30px;
+  }
+
+  div.blue-img-1 div, div.blue-img-2 div, div.blue-img-3 div {
+    float: left;
+    width: 33.3%;
+    padding-top: 30px;
+  }
+
+
+  footer {
+  padding: 50px 0px 50px 50px;
+  float: right;
+  }
+
+  /*form hover*/
+
+  .nav div.f-red a{
+    background-image: url(../images/nav_red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.f-yellow a{
+    background-image: url(../images/nav_yellow.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .nav div.f-blue a{
+    background-image: url(../images/nav_blue.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .spacer {
+    height: 150px;
+  }
+
+  form input, form textarea {
+    display: block;
+    padding: 10px;
+    margin-top: 15px;
+   }
+
+  body.red {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fffaf9+0,ea1f04+100 */
+  background: #fffaf9; /* Old browsers */
+  background: -moz-linear-gradient(top, #fffaf9 0%, #ea1f04 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fffaf9 0%,#ea1f04 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fffaf9 0%,#ea1f04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffaf9', endColorstr='#ea1f04',GradientType=0 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  }
+
+  body.yellow {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffda35+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #ffda35 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#ffda35 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%,#ffda35 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffda35',GradientType=0 ); /* IE6-9 */
+  }
+
+  body.blue {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,1e5799+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffff 0%, #1e5799 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffff 0%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffff 0%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  }
+
+}
